@@ -3,12 +3,16 @@
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+# - type: twitter
+#   icon: "fa-brands fa-x-twitter"
 
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
+
+- type: solved
+  icon: "fa fa-code"
+  url: "https://solved.ac/profile/0917ba" # Fill with your Solved.ac profile link
 
 - type: rss
   icon: "fas fa-rss"
