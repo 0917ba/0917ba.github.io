@@ -8,9 +8,6 @@
 {%- endif -%}
 ';
 
-/* append your custom style below */
-
-/* manipulate heading margins */
 p + h1,
 p + h2,
 p + h3,
@@ -30,4 +27,51 @@ p + h6 {
 
 #toc-bar {
   display: none !important;
+}
+
+@media (min-width: 768px) {
+  p + h1,
+  p + h2,
+  p + h3,
+  p + h4,
+  p + h5,
+  p + h6 {
+    margin-top: 3rem !important;
+  }
+}
+
+@media (max-width: 767px) {
+  /* make font size small */
+  .content {
+    font-size: 17px;
+  }
+  h2 {
+    font-size: 1.45rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  h4 {
+    font-size: 1.125rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  h6 {
+    font-size: 0.875rem;
+  }
+
+  p + h1,
+  p + h2,
+  p + h3,
+  p + h4,
+  p + h5,
+  p + h6 {
+    margin-top: 2.5rem !important;
+  }
+
+  main {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
 }
