@@ -1,0 +1,33 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+/* manipulate heading margins */
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  margin-top: 3rem !important;
+}
+
+.content {
+  margin-top: 3rem;
+}
+
+#toc-solo-trigger {
+  display: none !important;
+}
+
+#toc-bar {
+  display: none !important;
+}
