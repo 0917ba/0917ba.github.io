@@ -33,7 +33,7 @@ math: true
 
 ### [3136](https://www.acmicpc.net/problem/3136): 평면도 (<b><span style="color:rgb(0, 152, 116)">AC</span></b>, 13:00)
 
-모르는 태그 경고가 떠 있길래 문제를 읽어보았더니 오일러 지표 기본 문제였다. 평면도를 따라 그리면서 vertex, edge의 개수를 set으로 세어 주면 된다. 이 때 X자 모양으로 교차하는 두 edge가 생길 수 있으므로, 그래프의 각 edge 길이에 2를 곱하여 평면 그래프로 만들어 주어야 한다.
+모르는 태그 경고가 떠 있길래 문제를 읽고 생각해 보았더니 오일러 지표 기본 문제였다. 평면도를 따라 그리면서 vertex, edge의 개수를 set으로 세어 주면 된다. 이 때 X자 모양으로 교차하는 두 edge가 생길 수 있으므로, 그래프의 각 edge 길이에 2를 곱하여 평면 그래프로 만들어 주어야 한다.
 
 ### [4297](https://www.acmicpc.net/problem/4297): Ultra-QuickSort (<b><span style="color:rgb(0, 152, 116)">AC</span></b>, 04:19)
 
