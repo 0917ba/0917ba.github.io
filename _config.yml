@@ -23,10 +23,10 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://0917ba.github.io"
+url: "https://woojin042.github.io"
 
 github:
-  username: 0917ba # change to your GitHub username
+  username: woojin042 # change to your GitHub username
 
 # twitter:
 # username: # change to your Twitter username
@@ -38,7 +38,7 @@ social:
   email: woojin042@postech.ac.kr # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/0917ba # change to your GitHub homepage
+    - https://github.com/woojin042 # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -118,7 +118,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: "0917ba/0917ba.github.io" # <gh-username>/<repo>
+    repo: "woojin042/woojin042.github.io" # <gh-username>/<repo>
     repo_id: "R_kgDOPc1ntw"
     category: "Comments"
     category_id: "DIC_kwDOPc1nt84CuGil"
