@@ -16,13 +16,10 @@ timezone: Asia/Seoul
 
 title: woojin042 # the main title
 
-tagline: 알고리즘과 프로그래밍 기록 # it will display as the subtitle
+tagline: woojin042의 블로그 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  알고리즘 문제 풀이, 프로그래밍 대회 후기와 컴퓨터 과학 공부를 기록하는 Woojin Lee의 기술 블로그입니다.
-
-# Used by jekyll-seo-tag for structured data and social previews.
-logo: /assets/img/bosong_fox.png
+  woojin042의 블로그입니다.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -104,7 +101,7 @@ avatar: "assets/img/bosong_fox.png" # string, local or CORS resources
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: /assets/img/bosong_fox.png # string, local or CORS resources
+social_preview_image: # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
